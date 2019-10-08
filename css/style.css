@@ -1,0 +1,81 @@
+@font-face{
+	font-family: 'MaterialIcons-Regular', sans-serif;
+	src: url(MaterialIcons-Regular);
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+	background-image: url('../images/Fondos-01.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1{
+	font-size: 96px;
+	margin-top: 130px;
+	font-weight: bold;
+}
+
+.navbar{
+	margin-top: 30px;
+}
+
+.navbar-nav,
+.mr-auto {
+flex: 1;
+margin: auto !important;
+display: flex;
+justify-content: space-between;
+text-transform: uppercase;
+}
+
+a{
+	color: black;
+	font-size: 18px;
+}
+
+a:hover, a:after{
+	color: black;
+	font-size: 18px;
+}
+
+.active{
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+
+.active a:after {
+    content: '';
+    height: 3px;
+    background: black; 
+    display:block;
+}
+
+.subrayado{
+	letter-spacing: 2px;
+}
+
+.detalle{
+	font-size: 24px;
+	text-transform: uppercase;
+	margin-top: 30px;
+	letter-spacing: 7px;
+}
+
+.boton{
+	text-transform: uppercase;
+	font-size: 16px;
+	letter-spacing: 3px;
+	padding: 5px 25px;
+	margin-top: 15px;
+}
+
+.footer {
+  bottom: 0;
+  width: 100%;
+  margin-top: 200px;
+  min-height: 200px;
+  line-height: 200px;
+  background-color: #fff;
+}
