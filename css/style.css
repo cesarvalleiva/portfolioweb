@@ -17,10 +17,6 @@ h1{
 	font-weight: bold;
 }
 
-.navbar{
-	margin-top: 30px;
-}
-
 .navbar-nav,
 .mr-auto {
 flex: 1;
